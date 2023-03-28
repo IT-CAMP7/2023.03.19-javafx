@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            prefHeight="400.0" prefWidth="600.0"
+            fx:controller="pl.camp.it.javafx.controllers.SimpleController">
+
+    <children>
+        <Button text="Przycisk 1" onAction="#buttonClick"/>
+        <Button text="Przycisk 2" onAction="#readTextField"/>
+        <CheckBox onAction="#buttonClick" text="check box !!"/>
+        <TextField fx:id="poleTekstowe"/>
+    </children>
+
+</FlowPane>
